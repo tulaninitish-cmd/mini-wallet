@@ -2,9 +2,17 @@
 
 A full-stack mock peer-to-peer payments app. Users sign up, add **test money** to a wallet, send money to each other, request money, and review a transaction history. No real money or card data is ever involved.
 
-**Live demo:** _add your Vercel link here_ · **API health check:** _add your Render link here_`/api/health`
+**Live demo:** Not deployed yet · **API health check:** Not deployed yet
 
-_Add 2 screenshots here (wallet page and activity page)._
+## Screenshots
+
+| Sign in | Wallet |
+|---|---|
+| ![MiniPay sign-in screen](screenshot/WhatsApp%20Image%202026-11-14%20at%209.45.40%20PM.jpeg) | ![MiniPay wallet](screenshot/WhatsApp%20Image%202026-11-14%20at%209.45.41%20PM.jpeg) |
+
+| Activity | Requests |
+|---|---|
+| ![MiniPay activity](screenshot/WhatsApp%20Image%202026-11-14%20at%209.45.41%20PM%20%281%29.jpeg) | ![MiniPay requests](screenshot/WhatsApp%20Image%202026-11-14%20at%209.45.41%20PM%20%282%29.jpeg) |
 
 ## What it demonstrates
 
