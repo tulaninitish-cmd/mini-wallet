@@ -1,0 +1,18 @@
+# Render Blueprint for the API. The frontend is deployed separately on Vercel (see README).
+services:
+  - type: web
+    name: minipay-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        sync: false # set to your Vercel URL, e.g. https://minipay.vercel.app
+      - key: DB_FILE
+        value: ./minipay.db
